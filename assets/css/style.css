@@ -1,8 +1,36 @@
-body {
+* {
     margin: 0;
     padding: 0;
     font-family: 'Oswald', sans-serif;
 }
+
+img {
+    height: 10vh;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom:  1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 
 .container {
     display: grid;
@@ -20,7 +48,7 @@ body {
 
 
 nav {
-    background-color: #a0ee45;
+   
     grid-area: nav;
 }
 
